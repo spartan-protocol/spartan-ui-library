@@ -1,0 +1,100 @@
+.main-wrapper {
+  min-height: 100vh;
+  padding-top: 65px; // HEADER HEIGHT
+}
+
+#header {
+  backdrop-filter: blur(15px);
+}
+
+.sidebarlg {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.205);
+  min-width: 50px;
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+  position: fixed;
+  z-index: 1030;
+  border-right: 1px solid #00000020;
+  backdrop-filter: blur(25px);
+}
+
+.sidebar-item {
+  overflow: hidden;
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+}
+
+.sidebar-brand {
+  height: 150px;
+}
+
+body {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(1, 1, 22, 0.87)),
+    linear-gradient(360deg, rgba(145, 196, 240, 0.247), rgba(170, 238, 204, 0.103)),
+    radial-gradient(
+      circle at 70% 85%,
+      rgba(112, 143, 148, 0.705),
+      rgba(0, 0, 0, 0) 50%
+    ),
+    radial-gradient(
+      circle at 12% 96%,
+      rgba(110, 141, 146, 0.74),
+      rgba(0, 0, 0, 0) 43%
+    ),
+    radial-gradient(
+      circle at 59% 25%,
+      rgba(124, 136, 109, 0.432),
+      rgba(0, 0, 0, 0) 70%
+    ),
+    radial-gradient(
+      circle at 12% 1%,
+      rgba(159, 180, 180, 0.295),
+      rgba(0, 0, 0, 0) 35%
+    ),
+    radial-gradient(
+      circle at 9% 98%,
+      rgba(123, 157, 196, 0.315),
+      rgba(0, 0, 0, 0) 30%
+    );
+
+  // background: radial-gradient(
+  //     rgba(77, 0, 0, 0.8),
+  //     rgba(131, 131, 0, 0.8),
+  //     rgba(0, 54, 109, 0.8)
+  //   ),
+  //   repeating-linear-gradient(
+  //     45deg,
+  //     rgba(00, 00, 255, 1),
+  //     rgba(00, 00, 255, 1) 5px,
+  //     rgba(255, 255, 255, 0) 5px,
+  //     rgba(255, 255, 255, 0) 10px
+  //   );
+  
+  // background: radial-gradient(
+  //     rgba(255, 0, 0, 0.8),
+  //     rgba(255, 255, 0, 0.8),
+  //     rgba(30, 144, 255, 0.8)
+  //   ),
+  //   repeating-linear-gradient(
+  //     45deg,
+  //     rgba(00, 00, 255, 1),
+  //     rgba(00, 00, 255, 1) 5px,
+  //     rgba(255, 255, 255, 0) 5px,
+  //     rgba(255, 255, 255, 0) 10px
+  //   );
+
+  background-color: rgb(9, 10, 54);
+}
+
+.ps-sidebar {
+  padding-left: 70px;
+}
+
+.ps-sidebar-lg {
+  padding-left: 225px;
+}

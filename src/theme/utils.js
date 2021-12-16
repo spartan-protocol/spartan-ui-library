@@ -46,3 +46,14 @@ export const zIndex = {
   popover: 1060,
   tooltip: 1070,
 };
+
+export const samples = [
+  "primary",
+  "secondary",
+  "success",
+  "warning",
+  "danger",
+  "info",
+  "light",
+  "dark",
+];
